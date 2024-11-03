@@ -1,0 +1,71 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid black;
+}
+
+.content {
+  padding: 20px;
+}
+
+.welcome-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sections {
+  display: flex;
+  gap: 20px;
+}
+
+.section {
+  flex: 1;
+}
+
+.card {
+  background-color: #f0f2f5;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.continue-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.recommendations span {
+  display: inline-block;
+  background-color: #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin-right: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
