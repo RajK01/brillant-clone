@@ -38,3 +38,6 @@ This is a simplified version of Brilliant's learning platform, implementing the 
    ```
 ### Note:
         I have implemented GAuth to Login and redirect to Dashboard.
+        
+### Contact
+      Email: kumarrajeev66797@gmail.com
