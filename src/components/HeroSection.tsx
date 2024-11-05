@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './HeroSection.css';
+import '../styles/HeroSection.css';
 import landingImage from '../assets/landing.png';
 
 const HeroSection: React.FC = () => {

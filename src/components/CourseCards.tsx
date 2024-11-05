@@ -1,5 +1,5 @@
 import React from 'react';
-import './CourseCards.css';
+import '../styles/CourseCards.css';
 
 interface CourseCardProps {
   title: string;

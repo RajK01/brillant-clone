@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import CourseCards from '../components/CourseCards';
-import "./LandingPage.css";
+import "../styles/LandingPage.css";
 
 const LandingPage: React.FC = () => (
   <div>

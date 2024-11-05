@@ -1,5 +1,5 @@
 import React from 'react';
-import "./DashboardHeader.css";
+import "../styles/DashboardHeader.css";
 
 import { Link } from 'react-router-dom';
 

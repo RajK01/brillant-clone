@@ -11,9 +11,7 @@ This is a simplified version of Brilliant's learning platform, implementing the 
    ```bash
    npm install
    ```
-   ```
-   npm install firebase
-   ```
+3. npm install firebase
 
 4. Configure environment variables
    Create a `.env` file in the root directory and add your Firebase configuration values:
@@ -38,6 +36,3 @@ This is a simplified version of Brilliant's learning platform, implementing the 
    ```
 ### Note:
         I have implemented GAuth to Login and redirect to Dashboard.
-        
-### Contact
-      Email: kumarrajeev66797@gmail.com
