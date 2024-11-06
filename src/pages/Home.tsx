@@ -1,14 +1,13 @@
 import React from 'react';
 import '../styles/Home.css'; // Add this for consistent custom styles
-import DashboardHeader from '../components/DashboardHeader';
 import { useUser } from '../context/UserContext'; // Import the useUser hook
+import Footer from '../components/Footer'; // Import the Footer component
 
 const Home = () => {
   const user = useUser(); // Get user data from context
 
   return (
     <div className="home-page">
-      <DashboardHeader />
       <div className="content">
         <h2 className="welcome-text">Welcome, {user ? user.displayName : "Alex"}</h2>
         <div className="sections">

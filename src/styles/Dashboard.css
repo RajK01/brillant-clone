@@ -1,38 +1,84 @@
 .dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
   display: flex;
   flex-direction: column;
-  width: 250%; 
-  margin: 0 auto;
-  margin-right: 20px;
-  margin-left: 50px;
+  min-height: 100vh;
+  width: 1536px;
 }
 
 .dashboard-header {
   display: flex;
-  justify-content: flex-start;
-  background-color: #f8f9fa;
-  padding: 15px;
-  border-bottom: 2px solid #ddd;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
 }
 
-.dashboard-header button {
-  margin-right: 15px;
-  padding: 10px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  color: #333;
-}
-
-.dashboard-header button.active {
+.logo {
+  font-size: 24px;
   font-weight: bold;
-  border-bottom: 3px solid #000;
+  color: #333;
+  margin-right: 20px;
+}
+
+.nav-search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.nav-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #555;
+}
+
+.tab.active {
+  color: #333;
+  border-bottom: 2px solid #333;
+}
+
+.search-bar {
+  margin-left: 20px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar input.focused {
+  border-color: #007acc;
+}
+
+.get-started {
+  padding: 8px 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
 }
 
 .dashboard-content {
   padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+  flex-grow: 1;
+}
+
+.dashboard-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
 }

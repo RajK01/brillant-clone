@@ -1,16 +1,13 @@
 // src/components/Footer.tsx
 import React from 'react';
-import '../styles/Footer.css';
+import '../styles/Footer.css'; // Ensure you have a corresponding CSS file for styling
 
-const Footer: React.FC = () => (
-  <footer className="footer">
-    <div className="footer-left">
-      <span className="logo-text">Brilliant</span>
+const Footer: React.FC = () => {
+  return (
+    <div className="dashboard-footer">
+      <p>© Brilliant</p>
     </div>
-    <div className="footer-right">
-      <span>© 2024 Brilliant. Created by [Your Name or Company]</span>
-    </div>
-  </footer>
-);
+  );
+};
 
 export default Footer;
