@@ -1,0 +1,29 @@
+/* src/components/Footer.css */
+
+.footer {
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .footer-left .logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0066ff; /* or whatever color matches the design */
+  }
+  
+  .footer-right {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .footer-right span {
+    display: inline-block;
+  }
+  
